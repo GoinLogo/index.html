@@ -1,0 +1,121 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background: url(cinci.jpg);
+  background-size: cover;
+  background-position: center;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: #0e0d5f;
+  font-family: "Poppins", sans-serif;
+}
+.logo {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 20px;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+.nav-links {
+  list-style: none;
+}
+.nav-links {
+  color: rgb(226, 226, 226);
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+}
+header {
+  text-align: center;
+  padding-top: 20;
+}
+header {
+  line-height: 1.5;
+}
+header .profile-image {
+  margin-top: 50px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: all 0.5s;
+}
+header .profile-image:hover {
+  transform: scale(1.2) rotate(5deg);
+}
+.tag {
+  font-family: monospace;
+  color: rgb(15, 4, 4);
+  font-size: 40px;
+}
+.card {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: center;
+  background: rgba(72, 71, 122, 0.521);
+}
+DIV .CAT {
+  position: absolute;
+  left: 800px;
+  width: 200px;
+  height: 200px;
+  border-radius: 20%;
+  border: 5px solid rgb(18, 20, 156);
+  transition: all 0.5s;
+}
+h4 {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  padding: 0px 0px 20px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.kitty {
+  position: absolute;
+  left: 400px;
+  width: 200px;
+  height: 200px;
+  border-radius: 20%;
+  border: 5px solid rgb(117, 17, 112);
+  transition: all 0.5s;
+}
+div .CAT:hover {
+  transform: scale(1.5) rotate(360deg);
+}
+div .kitty:hover {
+  transform: scale(1.5) rotate(360deg);
+}
+h5 {
+  color: rgb(7, 129, 13);
+  font-size: 30px;
+  padding: 0px 0px 20px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+p {
+  color: cornsilk;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all 0.5s;
+  font-size: 25px;
+}
+
+ul li {
+  color: white;
+}

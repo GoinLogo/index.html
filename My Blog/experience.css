@@ -1,0 +1,21 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+h3 {
+  background-color: black;
+  color: cornsilk;
+  font-size: 50px;
+}
+
+img {
+  border: aqua solid;
+  width: 350px;
+  height: 350px;
+}
+
+div .canyon:hover {
+  transform: scale(2);
+}
