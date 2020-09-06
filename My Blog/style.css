@@ -25,7 +25,7 @@ nav {
 .nav-links {
   display: flex;
   justify-content: space-around;
-  width: 30%;
+  width: 50%;
 }
 .nav-links {
   list-style: none;
@@ -78,7 +78,7 @@ DIV .CAT {
   transition: all 0.5s;
 }
 h4 {
-  color: rgb(0, 0, 0);
+  color: rgb(218, 24, 224);
   font-size: 30px;
   padding: 0px 0px 20px 0px;
   margin-left: auto;
@@ -100,14 +100,6 @@ div .CAT:hover {
 div .kitty:hover {
   transform: scale(1.5) rotate(360deg);
 }
-h5 {
-  color: rgb(7, 129, 13);
-  font-size: 30px;
-  padding: 0px 0px 20px 0px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
 p {
   color: cornsilk;
   border-bottom: 4px solid #ccc;
@@ -118,4 +110,5 @@ p {
 
 ul li {
   color: white;
+  padding: 5px;
 }
